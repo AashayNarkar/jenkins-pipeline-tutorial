@@ -4,11 +4,13 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
+                echo 'Experiment 5.3'
             }
         }
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
+                echo 'Aashay Narkar'
             }
         }
         stage('Security Check') {
